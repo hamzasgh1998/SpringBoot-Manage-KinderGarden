@@ -40,7 +40,7 @@ public class Pi4SaeApplication {
 	public void triggerMail() throws MessagingException
 	{
 		//us.sendSimpleEmail("ameni.merhben@esprit.tn", "aa", "aa");
-		us.sendEmailWithAttachement("ameni.merhben@esprit.tn", "test", "test", "C:\\Users\\DELL\\Pictures\\IMG_E7268.JPG");
+		us.sendEmailWithAttachement("", "test", "test", "C:\\Users\\DELL\\Pictures\\IMG_E7268.JPG");
 		//C:\Users\DELL\Pictures
 	}*/
 	
