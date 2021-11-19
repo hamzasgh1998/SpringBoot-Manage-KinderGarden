@@ -209,8 +209,8 @@ public class EventsServiceImpl implements EventsService{
 		 doucment.close();
 	
 
-		final String username = "itskindergarten1@gmail.com";
-		final String password = "ilovejava";
+		final String username = "ur email@gmail.com";
+		final String password = "password";
 		String fromEmail = "JAVA";
 		String toEmail=UserRepository.findById(userid).get().getEmail();
 		
