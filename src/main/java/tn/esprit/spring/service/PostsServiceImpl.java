@@ -181,8 +181,8 @@ public class PostsServiceImpl implements PostsService {
 	@Override
 	public boolean Sendmail(long userid) {
 		
-		final String username = "itskindergarten1@gmail.com";
-		final String password = "ilovejava";
+		final String username = "YourEmail";
+		final String password = "YourPassword";
 		String fromEmail = "ADMINSTARTION";
 		String toEmail=UserRepository.findById(userid).get().getEmail();
 		
